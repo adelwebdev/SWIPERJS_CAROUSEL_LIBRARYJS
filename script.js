@@ -10,4 +10,7 @@ var swiper = new Swiper(".swiper-container", {
       return '<span class="' + className + '">' + (index + 1) + "</span>";
     },
   },
+  autoplay: {
+    delay: 4000,
+  },
 });
